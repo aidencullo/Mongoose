@@ -1,7 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
 import Learner from "./models/learner.mjs";
+
+dotenv.config();
 
 const PORT = 5050;
 const app = express();
